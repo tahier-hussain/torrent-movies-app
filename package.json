@@ -1,0 +1,19 @@
+{
+  "name": "torrent-movies-app",
+  "version": "1.0.0",
+  "description": "MERN stack application to download movies from torrent",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tahier Hussain",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "torrent-indexer": "^1.2.1",
+    "torrent-scraper": "0.0.5",
+    "torrent-search-api": "^2.1.3"
+  }
+}
